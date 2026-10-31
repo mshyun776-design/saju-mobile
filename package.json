@@ -1,0 +1,21 @@
+{
+  "name": "saju-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild app.source.js --bundle --minify --outfile=app.js --legal-comments=eof",
+    "test": "node --test calendar.test.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "2.118.0",
+    "esbuild": "0.28.2",
+    "korean-lunar-calendar": "0.4.0",
+    "lunar-javascript": "1.7.7"
+  },
+  "private": true
+}
